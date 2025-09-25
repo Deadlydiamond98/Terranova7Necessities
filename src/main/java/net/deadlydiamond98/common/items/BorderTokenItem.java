@@ -33,7 +33,9 @@ public class BorderTokenItem extends Item {
             WorldBorder worldBorder = server.getOverworld().getWorldBorder();
             worldBorder.setSize(worldBorder.getSize() + TerranovaConfig.increase);
 
-            stack.decrement(1);
+            if (!user.isCreative()) {
+                stack.decrement(1);
+            }
         }
         return TypedActionResult.success(stack);
     }

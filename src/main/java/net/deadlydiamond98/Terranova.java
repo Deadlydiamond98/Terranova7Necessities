@@ -1,7 +1,6 @@
 package net.deadlydiamond98;
 
 import net.deadlydiamond98.common.items.TerranovaItems;
-import net.deadlydiamond98.koalalib.config.KoalaConfigCreator;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,7 +13,6 @@ public class Terranova implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		KoalaConfigCreator.addModConfig(MOD_ID, TerranovaConfig.class);
 		TerranovaItems.register();
 	}
 }
