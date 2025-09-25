@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#minecraft:leaves",
-    "minecraft:moss_block",
-    "minecraft:moss_carpet",
-    "minecraft:mossy_cobblestone"
-  ]
-}

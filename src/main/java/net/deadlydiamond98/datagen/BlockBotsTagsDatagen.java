@@ -1,6 +1,5 @@
 package net.deadlydiamond98.datagen;
 
-import net.deadlydiamond98.common.blocks.BlockBotsBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fabricmc.fabric.impl.datagen.FabricTagBuilder;
@@ -18,16 +17,6 @@ public class BlockBotsTagsDatagen {
 
         @Override
         protected void configure(RegistryWrapper.WrapperLookup arg) {
-            getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL).add(
-                    BlockBotsBlocks.TITANIUM_BLOCK,
-                    BlockBotsBlocks.QUARTZ_ORE,
-                    BlockBotsBlocks.DEEPSLATE_QUARTZ_ORE
-            );
-            getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(
-                    BlockBotsBlocks.TITANIUM_BLOCK,
-                    BlockBotsBlocks.QUARTZ_ORE,
-                    BlockBotsBlocks.DEEPSLATE_QUARTZ_ORE
-            );
         }
     }
 

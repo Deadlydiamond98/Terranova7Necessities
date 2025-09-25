@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "block_bots",
+	"id": "terranova777nec",
 	"version": "${version}",
-	"name": "Block Bots",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Terranova 7 Necessities",
+	"description": "This is a thing 00ffaa told me to do at gunpoint",
 	"authors": [
 		"Deadlydiamond98"
 	],
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/block_bots/icon.png",
+	"icon": "assets/terranova777nec/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.deadlydiamond98.BlockBots"
+			"net.deadlydiamond98.Terranova"
 		],
 		"client": [
-			"net.deadlydiamond98.BlockBotsClient"
+			"net.deadlydiamond98.TerranovaClient"
 		],
 		"fabric-datagen": [
-			"net.deadlydiamond98.BlockBotsDatagen"
+			"net.deadlydiamond98.TerranovaDatagen"
 		]
 	},
 	"mixins": [

@@ -1,0 +1,13 @@
+{
+  "item.terranova777nec.token": "Token",
+  "item.terranova777nec.border_token": "Border Token",
+  "item.terranova777nec.border_token.msg": "The World Boarder has been increased by %s! You can thank %s!",
+
+  "terranova777nec.main.config.category": "Terranova 7 Necessities",
+  "terranova777nec.main.config.increase": "Border Token Increase",
+  "terranova777nec.main.config.tokenReg": "Regular Advancement Token Reward",
+  "terranova777nec.main.config.tokenGoal": "Goal Advancement Token Reward",
+  "terranova777nec.main.config.increase.desc": "The Amount the Boarder is expanded by when using the Boarder Token",
+  "terranova777nec.main.config.tokenReg.desc": "The Amount of Tokens to give upon getting a regular advancements",
+  "terranova777nec.main.config.tokenGoal.desc": "The Amount of Tokens to give upon getting a goal advancements"
+}
